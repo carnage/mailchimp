@@ -1,0 +1,26 @@
+{
+    "name": "carnage/mailchimp",
+    "description": "Zend Framework 2 Module that provides access to the Mailchimp API",
+    "type": "library",
+    "keywords": [
+        "mailchimp",
+        "module",
+        "zf2"
+    ],
+    "homepage": "https://github.com/carnage/mailchimp",
+    "authors": [
+        {
+            "name": "Chris Riley"
+        }
+    ],
+    "require": {
+        "php":                                 ">=5.3.3",
+        "zendframework/zendframework":         ">=2.2"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "MailChimp\\": "src/"
+        }
+    }
+}
