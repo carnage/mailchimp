@@ -11,7 +11,7 @@ return array(
     'mailchimp' =>array(
         'http'=>array(
             //'adapter' => 'Zend\Http\Client\Adapter\Curl',
-            'sslverifypeer' => false
+            //'sslverifypeer' => false
         ),
         'api' => array(
             'api_key' => '',
