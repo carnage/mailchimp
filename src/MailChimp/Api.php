@@ -154,7 +154,6 @@ class Api
             return json_decode($response->getContent(), true);
         } else {
             /*@TODO throw a more useful exception*/
-           echo '<pre>'; \Doctrine\Common\Util\Debug::dump($response, 4);die();
             throw new \Exception('Request Failed');
         }
     }
